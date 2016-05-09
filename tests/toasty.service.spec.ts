@@ -4,9 +4,12 @@ import {
   beforeEach,
   it,
   inject,
-  injectAsync,
-  beforeEachProviders
-} from 'angular2/testing';
+  //injectAsync,
+  async,
+  beforeEachProviders,
+  fakeAsync,
+  tick
+} from '@angular/core/testing';
 
 import {Observable} from 'rxjs/Observable';
 
